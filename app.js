@@ -2,7 +2,7 @@
 const express = require('express'); // 引入Express框架
 const request = require('request'); // 引入request模块用于发出HTTP请求
 const app = express(); // 创建一个Express应用程序实例
-const port = 3000; // 选择一个合适的端口号，这里设置为3000
+const port = 80; // 选择一个合适的端口号，这里设置为3000
 
 // 创建一个Express中间件，用于处理所有进入应用程序的HTTP请求
 app.use('/', (req, res) => {
